@@ -1,13 +1,15 @@
 {
-  "name": "[internal-mod-name]",
-  "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "name": "procedural-modules",
+  "version": "1.0.0",
+  "title": "Procedural Modules",
+  "author": "juh9870",
+  "homepage": "https://github.com/juh9870/procedural-modules",
+  "description": "Procedural module tiers. Now you can get that Productivity Module 20 you always dreamed of",
   "factorio_version": "2.0",
   "dependencies": [
-    "base"
+    "base",
+    "flib",
+    "(?) quality"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
