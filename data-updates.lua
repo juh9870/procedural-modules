@@ -88,6 +88,7 @@ local function generate_modules(params)
 		next_module.name = string.format(params.name, i + 3)
 		next_module.order = string.format(params.ordering, i + 3)
 		next_module.localised_name = { "item-name.proc-mod-name-template", tostring(i + 3), item_name }
+		next_module.tier = i + 3
 		if recipe ~= nil then
 			local new_recipe = table.deepcopy(recipe)
 			new_recipe.name = next_module.name
