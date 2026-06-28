@@ -5,7 +5,7 @@
   "author": "juh9870",
   "homepage": "https://github.com/juh9870/procedural-modules",
   "description": "Procedural module tiers. Now you can get that Productivity Module 20 you always dreamed of",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base",
     "flib",
